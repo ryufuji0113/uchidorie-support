@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Uchidorie — 家族のカレンダーとタスク</title>
+<meta name="description" content="Uchidorie（ウチドリエ）は、二人や家族の予定とタスクを一つにまとめるカレンダーアプリです。">
+<style>
+  :root{
+    --bg:#F5F4F0;
+    --panel:#FFFFFF;
+    --line:#E2DFD8;
+    --text:#1F2430;
+    --muted:#6B6A66;
+    --accent:#1F3456;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif;
+    line-height:1.8;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:64px 24px 96px}
+  .brand{font-size:13px;letter-spacing:.18em;color:var(--muted)}
+  h1{font-size:34px;line-height:1.4;margin:12px 0 4px;font-weight:700;color:var(--accent)}
+  .tagline{color:var(--muted);margin:0 0 40px}
+  h2{font-size:20px;margin:48px 0 12px;padding-top:24px;border-top:1px solid var(--line)}
+  p{margin:0 0 16px}
+  ul{margin:0 0 16px;padding-left:1.2em}
+  li{margin-bottom:8px}
+  .cards{display:grid;gap:12px;margin:32px 0 8px}
+  a.card{
+    display:block;background:var(--panel);border:1px solid var(--line);
+    border-radius:12px;padding:18px 20px;text-decoration:none;color:var(--text);
+  }
+  a.card:hover{border-color:var(--accent)}
+  a.card .t{font-weight:700}
+  a.card .d{color:var(--muted);font-size:14px}
+  a{color:var(--accent)}
+  footer{margin-top:64px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand">UCHIDORIE</div>
+  <h1>ウチドリエ</h1>
+  <p class="tagline">二人の予定も、家のことも、ひとつのカレンダーに。</p>
+
+  <p>Uchidorie は、自分の予定と家族の予定、家のタスクを一つの画面で見られるカレンダーアプリです。一人でも使えて、家族を招待すればもっと便利になります。</p>
+
+  <div class="cards">
+    <a class="card" href="./support.html">
+      <div class="t">サポート</div>
+      <div class="d">使い方・よくある質問・お問い合わせ</div>
+    </a>
+    <a class="card" href="./privacy.html">
+      <div class="t">プライバシーポリシー</div>
+      <div class="d">扱うデータと、その保存先について</div>
+    </a>
+  </div>
+
+  <h2>できること</h2>
+  <ul>
+    <li><strong>カレンダー</strong> — iPhone のカレンダー（Google カレンダーを含む）の予定と、二人の予定を、月の画面で一緒に見られます。誰の予定かは印で分かります。</li>
+    <li><strong>家族の共有</strong> — 招待リンクで家族を招くと、二人の予定・家のタスク・目標を共有できます。相手に見せるカレンダーは自分で選べます。</li>
+    <li><strong>タスク</strong> — 担当・期限・繰り返しを付けられます。期限は無いけれど急ぎたいことは「急ぎ」にして、決まった時刻に思い出せます。</li>
+    <li><strong>家族からのお知らせ</strong> — 二人の予定が追加・変更されたときや、急ぎのタスクを頼まれたときに知らせます（設定でオン）。</li>
+    <li><strong>場所の通知（Plus）</strong> — 登録したお店に着いたら、そこでやることを知らせます。</li>
+    <li><strong>目標</strong> — 期限つきの目標と、そこに向けたタスクをまとめて追えます。</li>
+  </ul>
+
+  <h2>Uchidorie Plus</h2>
+  <p>場所の通知、目標の数の上限なし（数値・習慣の目標を含む）、テーマ色の変更が使えるサブスクリプションです。Apple のファミリー共有に対応しています。</p>
+
+  <h2>対応環境</h2>
+  <p>iOS 18 以降の iPhone に対応しています。家族の共有には iCloud へのサインインが必要です。iPad・Mac には現時点では対応していません。</p>
+
+  <footer>
+    Uchidorie — 個人開発 / RYUKI Fujiwara<br>
+    <a href="./support.html">サポート</a> ・ <a href="./privacy.html">プライバシーポリシー</a>
+  </footer>
+</div>
+</body>
+</html>
